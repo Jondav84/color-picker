@@ -1,0 +1,65 @@
+/* styles/NewColorForm.css */
+.new-color-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.new-color-form h2 {
+    margin-bottom: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="color"],
+.form-group input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form-group input[type="color"] {
+    height: 40px;
+}
+
+.form-group button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form-group button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.form-group p {
+    color: red;
+    margin-top: 5px;
+}
+
+.color-preview {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: inline-block;
+    vertical-align: middle;
+}
